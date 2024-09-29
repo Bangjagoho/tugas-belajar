@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "canisters": {
+    "main": {
+      "type": "motoko",
+      "main": "src/icp/backend/main.mo",
+      "dependencies": [],
+      "build": {
+        "type": "motoko",
+        "source": "src/icp/backend"
+      }
+    },
+    "storage": {
+      "type": "motoko",
+      "main": "src/icp/backend/storage.mo",
+      "dependencies": [],
+      "build": {
+        "type": "motoko",
+        "source": "src/icp/backend"
+      }
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "providers": ["https://ic0.app"]
+    }
+  },
+  "build": {
+    "packager": "dfx",
+    "type": "motoko"
+  },
+  "defaults": {
+    "canister": {
+      "type": "motoko"
+    }
+  },
+  "profile": {
+    "default": {
+      "type": "default",
+      "source": "src"
+    }
+  }
+}
