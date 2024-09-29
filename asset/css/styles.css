@@ -1,0 +1,83 @@
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+        margin: 0;
+            padding: 0;
+                background-color: #f4f4f4;
+                    color: #333;
+                    }
+
+                    header {
+                        background-color: #4CAF50;
+                            color: white;
+                                padding: 10px 0;
+                                    text-align: center;
+                                    }
+
+                                    header h1 {
+                                        margin: 0;
+                                        }
+
+                                        nav ul {
+                                            list-style: none;
+                                                padding: 0;
+                                                }
+
+                                                nav ul li {
+                                                    display: inline;
+                                                        margin-right: 20px;
+                                                        }
+
+                                                        nav ul li a {
+                                                            color: white;
+                                                                text-decoration: none;
+                                                                    font-weight: bold;
+                                                                    }
+
+                                                                    section {
+                                                                        margin: 20px auto;
+                                                                            padding: 20px;
+                                                                                max-width: 800px;
+                                                                                    background-color: white;
+                                                                                        border-radius: 8px;
+                                                                                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                                                                            }
+
+                                                                                            form {
+                                                                                                display: flex;
+                                                                                                    flex-direction: column;
+                                                                                                    }
+
+                                                                                                    form input[type="file"] {
+                                                                                                        margin-bottom: 10px;
+                                                                                                        }
+
+                                                                                                        button {
+                                                                                                            background-color: #4CAF50;
+                                                                                                                color: white;
+                                                                                                                    border: none;
+                                                                                                                        padding: 10px;
+                                                                                                                            cursor: pointer;
+                                                                                                                                border-radius: 5px;
+                                                                                                                                    font-size: 16px;
+                                                                                                                                    }
+
+                                                                                                                                    button:hover {
+                                                                                                                                        background-color: #45a049;
+                                                                                                                                        }
+
+                                                                                                                                        p#status {
+                                                                                                                                            font-style: italic;
+                                                                                                                                                color: #ff0000;
+                                                                                                                                                }
+
+                                                                                                                                                footer {
+                                                                                                                                                    text-align: center;
+                                                                                                                                                        padding: 10px;
+                                                                                                                                                            background-color: #4CAF50;
+                                                                                                                                                                color: white;
+                                                                                                                                                                    position: fixed;
+                                                                                                                                                                        width: 100%;
+                                                                                                                                                                            bottom: 0;
+                                                                                                                                                                            }
+                                                                                                                                                                            
